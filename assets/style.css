@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  outline: none;
+  font-style: normal;
+}
+
+.root {
+  margin: 1rem;
+}
+
+/*Оболочка хэдера*/
+.header {
+  max-width: 98%;
+  display: flex;
+}
+
+/*Кнопка "Корзина" в хэдере*/
+.header__button {
+  margin-left: auto;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #ffffff;
+  padding: 1%;
+  border: none;
+  background: #5222d0;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+}
+
+/*Картинка на кнопке "Корзина" в хэдере*/
+.header__img {
+  margin-left: 7px;
+}
+
+/*Обертка главной секции*/
+.section {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+}
+
+/*Обертка текстовой части*/
+.section__inform {
+  width: 50%;
+  margin-left: 4%;
+}
+
+/*Заголовок главной секции*/
+.section__title {
+  text-transform: uppercase;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 120%;
+}
+
+/*Текст в главной секции*/
+.section__text {
+  font-family: "Roboto Slab", "Tames New Roman", serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+}
+
+/*Кнопка "Купить" в главной секции*/
+.section__button {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 35px;
+  color: #ffffff;
+  padding: 2%;
+  border: none;
+  background: #5222d0;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  min-width: max-content;
+}
+
+/*Картинка на кнопке "Купить" в главной секции*/
+.section__img {
+  margin-left: 7px;
+}
+
+/*Обертка части с картинкой в главной секции*/
+.section__picture {
+  width: 50%;
+  max-height: 110%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+/*Фоновая картинка*/
+.section__picture-back {
+  position: absolute;
+  width: 104%;
+  height: 100%;
+}
+
+/*Картинка на переднем фоне*/
+.section__picture-guy {
+  position: absolute;
+  height: 100%;
+  margin-top: 2%;
+}
+
+/*Обертка футера*/
+.footer {
+  margin-top: 9%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Пункты меню футера*/
+.footer__link {
+  font-family: "Roboto Slab", "Tames New Roman", serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+  text-decoration: none;
+  color: #5222d0;
+}

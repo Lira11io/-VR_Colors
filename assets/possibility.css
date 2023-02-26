@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  outline: none;
+  font-style: normal;
+}
+
+.root {
+  margin: 1rem;
+}
+
+/*Оболочка хэдера*/
+.header {
+  max-width: 98%;
+  display: flex;
+}
+
+/*Кнопка "Корзина" в хэдере*/
+.header__button {
+  margin-left: auto;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #ffffff;
+  padding: 1%;
+  border: none;
+  background: #5222d0;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+}
+
+/*Картинка на кнопке "Корзина" в хэдере*/
+.header__img {
+  margin-left: 7px;
+}
+
+/*Оболочка блока с возможностями*/
+.section-page {
+  display: grid;
+}
+
+/*Оболочка карточки возможности*/
+.section-page__cards {
+  position: relative;
+}
+
+/*Заголовок карточки возможности*/
+.section-page__title {
+}
+
+/*Оболочка внутренней карточки*/
+.card {
+}
+
+/*Фоновое изображение карточки*/
+.card__img-back {
+  position: absolute;
+}
+
+/*Картинка на переднем фоне карточки*/
+.card__img {
+  position: absolute;
+}
+
+/*Обертка футера*/
+.footer {
+  margin-top: 9%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Пункты меню футера*/
+.footer__link {
+  font-family: "Roboto Slab", "Tames New Roman", serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+  text-decoration: none;
+  color: #5222d0;
+}
