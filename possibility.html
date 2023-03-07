@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VR_Colors Figma-possibility</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,6 +19,7 @@
     />
     <link rel="stylesheet" href="assets/normalize.css" />
     <link rel="stylesheet" href="assets/possibility.css" />
+    <title>VR_Colors Figma-possibility</title>
   </head>
   <body>
     <div class="root">
@@ -80,26 +81,108 @@
       </header>
       <main class="main">
         <section class="section-page">
-          <div class="section-page__cards">
-            <h1 class="section-page__title">ВОЗМОЖНОСТИ</h1>
-            <section class="card">
+          <h1 class="section-page__title">ВОЗМОЖНОСТИ</h1>
+          <section class="card">
+            <div class="card__img">
               <img
                 class="card__img-back"
                 src="assets/images/illustration_1/back_pink_1.png"
                 alt="background picture pink"
               />
               <img
-                class="card__img"
+                class="card__img-font"
                 src="assets/images/illustration_1/user.png"
                 alt="satisfied user"
               />
-              <h2 class="card__title">БЕЗ ПРОВОДОВ</h2>
-              <p class="card__text">
+            </div>
+            <div class="card__content">
+              <h2 class="card__content-title">БЕЗ ПРОВОДОВ</h2>
+              <p class="card__content-text">
                 Шлем работает без проводов. Не нужен ни компюьтер, ни внешнее
                 питание, ни большое помещение, чтобы расставить трекеры.
               </p>
-            </section>
-          </div>
+            </div>
+          </section>
+          <section class="card">
+            <div class="card__img">
+              <img
+                class="card__img-back"
+                src="assets/images/illustration_1/back_pink_1.png"
+                alt="background picture pink"
+              />
+              <img
+                class="card__img-font"
+                src="assets/images/illustration_1/robot.png"
+                alt="satisfied user"
+              />
+            </div>
+            <div class="card__content">
+              <h2 class="card__content-title">БЕЗ КОМПЬЮТЕРА</h2>
+              <p class="card__content-text">
+                Современным VR-шлемам нужен мощный компюьтер, чтобы запускать
+                игры. Наш шлем запускает игры из облака, поэтому просто
+                наслаждайтесь.
+              </p>
+            </div>
+          </section>
+          <section class="card">
+            <div class="card__img">
+              <img
+                class="card__img-back"
+                src="assets/images/illustration_1/back_pink_1.png"
+                alt="background picture pink"
+              />
+              <img
+                class="card__img-font"
+                src="assets/images/illustration_1/computeruser.png"
+                alt="satisfied user"
+              />
+            </div>
+            <div class="card__content">
+              <h2 class="card__content-title">ДО 10 ЧАСОВ РАБОТЫ</h2>
+              <p class="card__content-text">
+                Несмотря на компактность и производительность, шлем может
+                работать до 10 часов - даже, если вы играете в самые
+                ресурсоемкие игры.
+              </p>
+            </div>
+          </section>
+          <section class="card">
+            <div class="card__content">
+              <h2 class="card__content-title">СОТНИ ИГР</h2>
+              <p class="card__content-text">
+                Уже сейчас вам доступно более сотни игр: от высокобюджетных
+                ААА-тайтлов до маленьких независимых проектов. Скоро их станет
+                еще больше.
+              </p>
+            </div>
+          </section>
+          <section class="card">
+            <div class="card__content">
+              <h2 class="card__content-title">ПОЧТИ ДАРОМ</h2>
+              <p class="card__content-text">
+                По сравнению с другими VR-шлемами, наш стоит гораздо меньше. И
+                вы существенно экономите на мощном компьютере.
+              </p>
+            </div>
+          </section>
+          <section class="card card_mail">
+            <div class="card__content">
+              <h2 class="card__content-title card__content-title_mail">
+                НОВОСТИ
+              </h2>
+              <form action="action_page.php" method="post">
+                <input
+                  class="card__content-form"
+                  type="email"
+                  id="email"
+                  placeholder="Эл. почта"
+                  name="mail"
+                />
+              </form>
+              <button class="card__content-button">ПОДПИСАТЬСЯ</button>
+            </div>
+          </section>
         </section>
       </main>
       <footer class="footer">

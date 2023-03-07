@@ -17,7 +17,7 @@
 /*Кнопка "Корзина" в хэдере*/
 .header__button {
   margin-left: auto;
-  font-family: "Inter", "Arial", sans-serif;
+  font-family: "Rubik", "Arial", sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 13px;
@@ -27,7 +27,7 @@
   background: #5222d0;
   border-radius: 100px;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 /*Картинка на кнопке "Корзина" в хэдере*/
@@ -38,29 +38,107 @@
 /*Оболочка блока с возможностями*/
 .section-page {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10% 60% 30%;
+  gap: 5%;
 }
 
-/*Оболочка карточки возможности*/
-.section-page__cards {
-  position: relative;
-}
-
-/*Заголовок карточки возможности*/
+/*Заголовок блока с возможностями*/
 .section-page__title {
+  grid-area: 1 / 1 / 2/ 4;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 120%;
+  color: #000000;
 }
 
 /*Оболочка внутренней карточки*/
 .card {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Обертка картинки в карточке*/
+.card__img {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
 }
 
 /*Фоновое изображение карточки*/
 .card__img-back {
-  position: absolute;
+  max-width: 100%;
+  /* position: absolute; */
 }
 
 /*Картинка на переднем фоне карточки*/
-.card__img {
+.card__img-font {
   position: absolute;
+  top: 5%;
+}
+
+/*Текстовая часть карточки*/
+.card__content {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Заголовок текстовой части карточки*/
+.card__content-title {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  margin-top: 15%;
+}
+
+/*Текст карточки*/
+.card__content-text {
+  font-family: "Roboto Slab", "Tames New Roman", serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 160%;
+}
+
+/*Оболочка внутренней карточки с подпиской на новости*/
+.card_mail {
+  background-image: url("images/illustration_1/back_pink_1.png");
+}
+
+/*Заголовок карточки с подпиской на новости*/
+.card__content-title_mail {
+  color: #ffffff;
+  margin-left: 5%;
+}
+
+/*Поле для заполнения эл почты*/
+.card__content-form {
+  height: 50px;
+  width: 88%;
+  margin: 5%;
+  padding-left: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Кнопка в карточке с подпиской на новости*/
+.card__content-button {
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #ffffff;
+  padding: 4%;
+  border: none;
+  background: #5222d0;
+  border-radius: 100px;
+  width: 45%;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Обертка футера*/

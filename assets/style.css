@@ -17,7 +17,7 @@
 /*Кнопка "Корзина" в хэдере*/
 .header__button {
   margin-left: auto;
-  font-family: "Inter", "Arial", sans-serif;
+  font-family: "Rubik", "Arial", sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 13px;
@@ -51,7 +51,7 @@
 /*Заголовок главной секции*/
 .section__title {
   text-transform: uppercase;
-  font-family: "Inter", "Arial", sans-serif;
+  font-family: "Rubik", "Arial", sans-serif;
   font-weight: 400;
   font-size: 60px;
   line-height: 120%;
@@ -67,7 +67,7 @@
 
 /*Кнопка "Купить" в главной секции*/
 .section__button {
-  font-family: "Inter", "Arial", sans-serif;
+  font-family: "Rubik", "Arial", sans-serif;
   font-weight: 400;
   font-size: 35px;
   line-height: 35px;
@@ -106,8 +106,9 @@
 /*Картинка на переднем фоне*/
 .section__picture-guy {
   position: absolute;
-  height: 100%;
-  margin-top: 2%;
+  height: 124%;
+  top: 12%;
+  right: 20%;
 }
 
 /*Обертка футера*/
