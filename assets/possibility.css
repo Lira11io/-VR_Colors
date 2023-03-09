@@ -27,7 +27,7 @@
   background: #5222d0;
   border-radius: 100px;
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 /*Картинка на кнопке "Корзина" в хэдере*/
@@ -70,7 +70,6 @@
 /*Фоновое изображение карточки*/
 .card__img-back {
   max-width: 100%;
-  /* position: absolute; */
 }
 
 /*Картинка на переднем фоне карточки*/
